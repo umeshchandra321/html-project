@@ -1,0 +1,353 @@
+/* google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+/* ---------Global--------*/
+* {
+    margin: 0;
+    padding: o;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 15px;
+    background-color: rgb(93, 121, 122);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.navbar-links{
+    display: flex;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    font-size: 30px;
+    color: whitesmoke;
+    font-weight: 600;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+.logo:hover{
+    color: crimson;
+}
+.navbar-links a{
+    font-size: 15px;
+    color: whitesmoke;
+    font-weight: 500;
+    margin: 0 20px;
+}
+.active{
+    color: brown;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#home{
+    width: 100%;
+    min-height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    gap: 7rem;
+    padding: 10px 95px;
+    margin: 20px 0 50px 0;
+    background-position: bottom;
+    background-size: cover;
+}
+.home_content{
+    max-width: 900px;
+}
+.home_content h1{
+    font-size: 8vmin;
+    line-height: 1.4;
+}
+.home_content p{
+    font-size: 2vmin;
+    margin: 25px 0 30px;
+}
+.btn-box{
+    width: 400px;
+    display: flex;
+    gap: 2em;
+}
+.btn-1{
+    padding: 10px 40px;
+    background-color: rgba(20, 10, 85, 0.822);
+    color: whitesmoke;
+    font-weight: 500;
+    border: 2px solid transparent;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+.btn-1:hover{
+    background-color: wheat;
+    color: black;
+    border: 2px solid black;
+}
+.btn-2{
+    padding: 10px 40px;
+    background-color: rgb(26, 21, 21);
+    color: whitesmoke;
+    font-weight: 500;
+    border: 2px solid transparent;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.btn-2:hover{
+    background-color: whitesmoke;
+    color: black;
+    border: 2px solid black;
+}
+.img-box img{
+    width: 80vmin;
+}
+/*-----events-----*/
+.col{
+    width: 80%;
+    margin: 80px auto;
+    background-color: whitesmoke;
+}
+.title{
+    text-align: center;
+    font-size: 4vmin;
+}
+span{
+    color: rgb(62, 96, 158);
+}
+.line{
+    width: 68px;
+    height: 5px;
+    background-color: black;
+    margin: 3px auto;
+    border-radius: 5px;
+}
+.col{
+    margin-left: 100px;
+}
+.col-1, .col-2, .col-3{
+    background-color: whitesmoke;
+    margin-top: 50px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.col img{
+    width: 55vmin;
+    height: 55vmin;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+.col-1, .col-2, .col-3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10px;
+}
+h3{
+    font-size: 4vmin;
+    color: black;
+    margin: 20px auto;
+}
+.col p{
+    padding: 2px 38px;
+    text-align: center;
+    line-height: 4vh;
+    font-size: 15px;
+}
+.ctn{
+    width: 30%;
+    padding: 10px 22px;
+    background-color: rgb(0, 0, 0);
+    color: antiquewhite;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+/*-----evnets1-----*/
+.title-1{
+    text-align: center;
+    font-size: 4vmin;
+}
+.img{
+    width: 100%;
+    height: 80vh;
+    background-image: url(img/cleancars5.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.row-1{
+    width: 80%;
+    margin: 40px auto;
+    padding-top: 200px;
+    text-align: center;
+    line-height: 3vh;
+}
+.row-1 h4{
+    font-size: 4vmin;
+    margin-bottom: 60px;
+}
+.row-1 p{
+    font-size: 2vmin;
+    margin-bottom: 60px;
+}
+.ctn-1{
+    background-color: azure;
+    margin: 40%;
+    padding: 12px 50px;
+    font-weight: 400;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+/*--------event3-------*/
+.col1{
+    width: 80%;
+    height: 60vh;
+    margin: auto;
+}
+.title-2{
+    width: 100%;
+    font-size: 4vmin;
+    margin: 50px auto;
+    padding: 40px auto;
+    text-align: center;
+    margin-top: 80px;
+}
+.col1-1{
+    display: flex;
+    padding: 20px 30px;
+    margin-top: 70px;
+}
+.col1-1 a{
+    width: 30%;
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 50%;
+    border: 2px solid rgb(93, 69, 112);
+    margin-right: 15px;
+}
+.col1-1 p{
+    margin-top: 30px;
+}
+.col1-2, .col1-3, .col1-4{
+    background-color: whitesmoke;
+    padding: 40px 40px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.col1-3{
+    background-color: rgb(60, 60, 78);
+    margin: 0px 20px;
+    color: white;
+}
+.col1-1 h5{
+    font-size: 15px;
+}
+/*------event4-----*/
+.col2{
+    width: 80%;
+    height: 60vh;
+    margin: 50px auto;
+}
+.col2 img{
+    width: 15vh;
+    height: 20vh;
+}
+.dflex1{
+    display: flex;
+    margin: 60px auto;
+}
+.col2-1, .col2-3{
+    width: 15%;
+    text-align: center;
+}
+.col2 i{
+    margin-top: 16vh;
+    color: white;
+    padding: 15px 15px;
+    border-radius: 50%;
+    background-color: black;
+    cursor: pointer;
+}
+.col2-2{
+    display: flex;
+    padding: 30px 30px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+.col2-2 .img-col2{
+    padding: 20px 20px;
+}
+.col2-2 .content-col2{
+    padding: 20px 20px;
+    margin-top: 40px;
+}
+.col2-2 h6{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.col2-2 p{
+    font-size: 15px;
+}
+/*-------------------------*/
+.footer{
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(27, 26, 26);
+}
+.footer-listall{
+    width: 70%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 20vmin 0;
+    color: rgb(141, 136, 136);
+}
+.footer li{
+    list-style: none;
+    line-height: 4vh;
+    font-size: 2vh;
+}
+.footer a{
+    cursor: pointer;
+}
+.footer h6{
+    font-size: 3vh;
+    color: whitesmoke;
+    margin-bottom: 1vh;
+}
+.footer input{
+    width: auto;
+}
+.footer button{
+    background-color: rgb(64, 64, 131);
+    padding: 4px 20px;
+    cursor: pointer;
+}
+.footer-logos{
+    width: 100%;
+    text-align: center;
+}
+.fa-brands{
+    background-color: whitesmoke;
+    padding: 3px 3px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+.footer-end{
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+}
+.footer-list4 input{
+    margin: 10px 0px;
+}
