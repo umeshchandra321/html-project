@@ -1,0 +1,4 @@
+To visit the page Need to do this.
+1. we need few extensions to do this like cors, express and csv-parser.
+2. To get this run "npm install express cors csv-parser" in the terminal.
+3. change the port number accordingly(what ever it needed)
